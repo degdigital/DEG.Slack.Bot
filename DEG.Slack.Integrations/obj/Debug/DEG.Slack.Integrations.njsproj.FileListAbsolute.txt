@@ -1,0 +1,2 @@
+C:\_APPLICATION\DEG.Slack.Bot\DEG.Slack.Integrations\obj\Debug\DEG.Slack.Integrations.njsprojResolveAssemblyReference.cache
+C:\_APPLICATION\DEG.Slack.Bot\DEG.Slack.Integrations\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DEG.Slack.Integrations", "DEG.Slack.Integrations.njsproj", "{A2ABE285-C744-4A97-B5FF-6B9BF5472F1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2ABE285-C744-4A97-B5FF-6B9BF5472F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ABE285-C744-4A97-B5FF-6B9BF5472F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ABE285-C744-4A97-B5FF-6B9BF5472F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ABE285-C744-4A97-B5FF-6B9BF5472F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

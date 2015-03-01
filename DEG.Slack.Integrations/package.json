@@ -1,0 +1,15 @@
+{
+  "name": "DEG.Slack.Integrations",
+  "version": "0.0.0",
+  "description": "DEG Slack Integration for SharePoint using Node.js",
+  "main": "server.js",
+  "author": {
+    "name": "Nick Aranzamendi",
+    "email": "nickaranz@degdigital.com"
+  },
+  "dependencies": {   
+    "ws": "0.4.31",
+    "log": "1.4.0",
+	"slack-client": "1.4.0"
+  }
+}

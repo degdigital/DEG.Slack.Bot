@@ -1,2 +1,2 @@
 # DEG.Slack.Bot
-Slack Bot Integration for SharePoint
+Node.js Slack Integration for SharePoint 
