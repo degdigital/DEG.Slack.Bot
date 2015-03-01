@@ -34,7 +34,6 @@
     <Compile Include="extensions\slackclient.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bots\" />

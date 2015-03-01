@@ -1,4 +1,4 @@
-var Slack = require('../extensions/slackclient.js');
+var Slack = require('..');
 
 //var token = 'xoxp-3172901419-3172901421-3842219765-af8dc6'; //nick key
 var token = 'xoxb-3860130778-EdW5JSmCAogu0xLtIxCuFvaT'; //deg bot key
@@ -53,10 +53,7 @@ slackClient.on('message', function (message) {
     var userFormattedName = slackClient.getFormattedUserName(user);
     
     console.log("Received Message : " + messageType + " " + channeFormattedName + " " + userFormattedName + " " + ts + " \"" + text + "\"");
-    if (slackClient.self.name === "degrobot") { //todo check isrobot from api
-        console.log("Responses to bots are not allowed");
-        return true;
-    }
+    //todo check if message is response to robot mention
     if (messageType === 'message' && (text != null) && (channel != null)) {
         console.log(message);
         var passwordKeys = botResponses.wilrelessPassword.split(",");
